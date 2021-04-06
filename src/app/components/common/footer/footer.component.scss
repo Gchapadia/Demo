@@ -1,0 +1,42 @@
+.copyright-container span {
+  font-size: 12px;
+}
+.logo,
+.social-links {
+  padding: 0.5rem;
+}
+.nav {
+  .nav-item {
+    &.title {
+      padding: 0.5rem;
+    }
+    .bi {
+      color: red;
+    }
+    .nav-link {
+      padding: 0.5rem;
+      font-size: 12px;
+      color: black;
+    }
+    .input-group {
+      border: 1px solid #efeeee;
+      border-radius: 20px;
+      input {
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        font-size: 12px;
+        margin-right: 2px;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    button {
+      border-radius: 20px !important;
+      color: white;
+      background: red;
+      font-size: 12px;
+    }
+  }
+}

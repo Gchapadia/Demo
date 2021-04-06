@@ -1,0 +1,53 @@
+.wrapper {
+  border: 1px solid #efeeee;
+  border-radius: 12px;
+  padding: 1rem;
+  .details-wrapper {
+    border: 1px solid #efeeee;
+    border-radius: 12px;
+    padding: 0.5rem;
+    cursor: pointer;
+    &.selected {
+      color: white;
+      background-color: red;
+    }
+    .icon-wrapper {
+      display: inline-block;
+      vertical-align: top;
+      height: 54px;
+      width: 54px;
+      border: 1px solid #efeeee;
+      border-radius: 12px;
+      margin-right: 0.5rem;
+      text-align: center;
+      padding: 0.5rem;
+      .bi {
+        font-size: 22px;
+        vertical-align: top;
+      }
+    }
+    .details {
+      display: inline-block;
+      width: 125px;
+      p {
+        margin: 0;
+        &.count {
+          font-size: 18px;
+        }
+        &.description {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .btn {
+    color: red;
+    border-color: red;
+    width: 100%;
+    border-radius: 25px;
+    &:hover {
+      background-color: red;
+      color: white;
+    }
+  }
+}

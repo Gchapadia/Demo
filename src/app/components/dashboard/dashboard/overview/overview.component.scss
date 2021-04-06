@@ -1,0 +1,32 @@
+.details-wrapper {
+  border: 1px solid #efeeee;
+  border-radius: 12px;
+  padding: 1rem;
+  .icon-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    height: 65px;
+    width: 65px;
+    border: 1px solid #efeeee;
+    border-radius: 12px;
+    margin-right: 1rem;
+    text-align: center;
+    padding: 10px;
+    .bi {
+      font-size: 28px;
+      vertical-align: top;
+    }
+  }
+  .details {
+    display: inline-block;
+    p {
+      margin: 0;
+      &.count {
+        font-size: 30px;
+      }
+      &.description {
+        font-size: 14px;
+      }
+    }
+  }
+}

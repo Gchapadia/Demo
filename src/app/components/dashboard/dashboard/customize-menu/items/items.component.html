@@ -1,0 +1,21 @@
+<div class="wrapper pt-3">
+    <ng-container *ngFor="let item of items">
+        <div class="item-wrapper me-2 mb-2 p-2">
+            <img>
+            <div class="item-description">
+                <span>{{item.name}}</span>
+                <span class="float-end">{{item.price | currency:'USD':'symbol':'.0'}}</span>
+            </div>
+            <div class="item-details">
+                <div>
+                    <p class="title">Take Orders</p>
+                    <p>{{item.orders}}</p>
+                </div>
+                <div>
+                    <p class="title">Revenue</p>
+                    <p>{{item.revenue | currency:'USD':'symbol':'.0'}}</p>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>

@@ -1,0 +1,13 @@
+<div class="wrapper mt-3">
+    <p>Categories</p>
+    <ng-container *ngFor="let item of categories">
+        <div class="details-wrapper mb-2" [ngClass]="{selected: selected == item}" (click)="selected = item;">
+            <div class="icon-wrapper"><i class="bi" [ngClass]="item.icon"></i></div>
+            <div class="details">
+                <p class="count">{{item.name}}</p>
+                <p class="description">{{item.items}}</p>
+            </div>
+        </div>
+    </ng-container>
+    <button type="button" class="btn btn-outline-primary">+ Add</button>
+</div>

@@ -1,0 +1,11 @@
+.categories {
+  overflow: auto;
+  float: left;
+  height: 100%;
+  position: relative;
+}
+.items {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
